@@ -32,8 +32,7 @@ public class LevelExporter : MonoBehaviour
 
         string json = JsonUtility.ToJson(data, true);
         string projectRoot = Directory.GetParent(Application.dataPath).FullName;
-        string path = Path.Combine(projectRoot, fileName + ".json");
-
+        string path = Path.Combine(Application.dataPath, "Resources", fileName + ".json");
         File.WriteAllText(path, json);
 
 #if UNITY_EDITOR
