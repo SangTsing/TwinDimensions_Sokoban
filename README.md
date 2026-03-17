@@ -1,2 +1,0 @@
-# TwinDimensions_Sokoban
-
