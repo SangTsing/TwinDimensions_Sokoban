@@ -1,0 +1,850 @@
+{
+    "items": [
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -1.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -10.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 2.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -0.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -9.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -6.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -2.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 1.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -9.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -7.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 4.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -6.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -3.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 4.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -8.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -4.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -0.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": -2.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -11.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 1.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -2.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -3.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -2.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -10.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -8.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -1.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -7.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -1.5,
+                "y": 0.0,
+                "z": 2.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -12.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -4.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": -11.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -1.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 2.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -1.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -2.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 5.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 3.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 8.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 5.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 9.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 1.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -2.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 9.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 3.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 11.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 4.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 11.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 7.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 2.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 4.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 1.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 7.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 12.5,
+                "y": 0.0,
+                "z": -0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 10.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 8.5,
+                "y": 0.0,
+                "z": -5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 10.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Wall",
+            "pos": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 5.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Box",
+            "pos": {
+                "x": 5.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Box",
+            "pos": {
+                "x": -6.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Target",
+            "pos": {
+                "x": -2.5,
+                "y": 0.0,
+                "z": 4.5
+            },
+            "world": "Light"
+        },
+        {
+            "tag": "Target",
+            "pos": {
+                "x": 11.5,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Player",
+            "pos": {
+                "x": 8.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Shadow"
+        },
+        {
+            "tag": "Player",
+            "pos": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "world": "Light"
+        }
+    ]
+}
