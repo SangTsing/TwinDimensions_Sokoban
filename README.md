@@ -39,4 +39,4 @@
 - **UI 切换**: 主菜单支持 Level 1 - Level 3 的动态选关。
 
 ---
-*Developed by 桑卿 (XMUM DMT)*
+*Developed by 桑卿 *
