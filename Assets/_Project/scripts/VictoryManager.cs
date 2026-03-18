@@ -4,10 +4,16 @@ using UnityEngine.UI;
 public class VictoryManager : MonoBehaviour
 {
     public static VictoryManager Instance;
-    public GameObject victoryPanel; // 胜利弹窗
+
+    public GameObject victoryPanel;
+    public Text victoryText; // 可选：用于显示“全关通关”
     private LevelLoader loader;
 
-    void Awake() => Instance = this;
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     void Start()
     {
@@ -17,77 +23,76 @@ public class VictoryManager : MonoBehaviour
 
     void Update()
     {
-        // 快捷键 R 重置
-        if (Input.GetKeyDown(KeyCode.R)) ResetLevel();
-    }
-
-    public void ResetLevel()
-    {
-        if (loader != null)
+        // WebGL 焦点提醒：必须点一下画面，按键才生效
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            if (victoryPanel != null) victoryPanel.SetActive(false);
-            loader.LoadLevel(); // 重新加载当前关卡
+            ResetCurrentLevel();
         }
     }
 
-    // 点击“下一关”按钮调用此函数
-    public void LoadNextLevel()
+    // 由 PlayerController 在推完箱子后调用
+    public void CheckWinCondition()
     {
-        if (loader == null) return;
+        GameObject[] boxes = GameObject.FindGameObjectsWithTag("Box");
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("Target");
+        if (boxes.Length == 0) return;
 
-        // 1. 获取当前关卡数字，例如 "Level_1" -> 1
-        string currentName = loader.levelFileName;
-        if (currentName.Contains("_"))
+        int onTargetCount = 0;
+        foreach (var b in boxes)
         {
-            string[] parts = currentName.Split('_');
-            if (int.TryParse(parts[1], out int num))
+            foreach (var t in targets)
             {
-                // 2. 这里的 3 是你总共的关卡数
-                int nextNum = num + 1;
-                if (nextNum > 3)
+                if (Vector3.Distance(b.transform.position, t.transform.position) < 0.1f)
                 {
-                    Debug.Log("?? 所有关卡已完成！");
-                    // 这里可以跳转回主菜单
-                    return;
+                    onTargetCount++;
+                    break;
                 }
+            }
+        }
 
-                // 3. 设置新文件名并加载
-                loader.levelFileName = "Level_" + nextNum;
-                loader.LoadLevel();
+        if (onTargetCount >= boxes.Length && boxes.Length > 0)
+        {
+            if (victoryPanel != null) victoryPanel.SetActive(true);
+        }
+    }
 
-                // 4. 隐藏胜利面板
+    // 核心改进：自动跳转到下一关
+    public void LoadNextLevelAuto()
+    {
+        string currentName = loader.levelFileName;
+        string[] parts = currentName.Split('_');
+
+        if (parts.Length >= 2 && int.TryParse(parts[1], out int currentNum))
+        {
+            int nextNum = currentNum + 1;
+            string nextName = "Level_" + nextNum;
+
+            // 尝试预览加载，检查是否存在下一关
+            if (Resources.Load<TextAsset>(nextName) != null)
+            {
+                loader.levelFileName = nextName;
                 if (victoryPanel != null) victoryPanel.SetActive(false);
+                loader.LoadLevel();
+            }
+            else
+            {
+                // 如果没有 Level_4 了，显示通关信息
+                if (victoryText != null) victoryText.text = "All Levels Cleared!";
+                Debug.Log("?? 已完成所有关卡！");
+                // 3秒后自动回菜单
+                Invoke("BackToMenuDelayed", 2f);
             }
         }
     }
 
-    public void CheckWinCondition()
+    private void BackToMenuDelayed()
     {
-        // 获取场景中所有的目标点
-        GameObject[] targets = GameObject.FindGameObjectsWithTag("Target");
-        if (targets.Length == 0) return;
-
-        int reachedCount = 0;
-        foreach (var t in targets)
-        {
-            // 检查目标点位置是否有箱子（利用 Physics.CheckSphere 或 GridManager）
-            if (IsBoxOnTarget(t.transform.position)) reachedCount++;
-        }
-
-        if (reachedCount >= targets.Length)
-        {
-            victoryPanel.SetActive(true);
-        }
+        FindObjectOfType<LevelMenuManager>().BackToMenu();
     }
 
-    private bool IsBoxOnTarget(Vector3 pos)
+    public void ResetCurrentLevel()
     {
-        // 简单的碰撞检测，看位置上是否有 Box 标签的物体
-        Collider[] colliders = Physics.OverlapSphere(pos, 0.1f);
-        foreach (var c in colliders)
-        {
-            if (c.CompareTag("Box")) return true;
-        }
-        return false;
+        if (victoryPanel != null) victoryPanel.SetActive(false);
+        loader.LoadLevel();
     }
 }
